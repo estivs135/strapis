@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "name": "clientes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "carro": {
+      "type": "string"
+    },
+    "cor": {
+      "type": "string"
+    },
+    "mensagem": {
+      "type": "richtext"
+    },
+    "Prioridade": {
+      "type": "enumeration",
+      "enum": [
+        "baixa",
+        "media",
+        "alta"
+      ]
+    }
+  }
+}
