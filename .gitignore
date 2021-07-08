@@ -107,19 +107,9 @@ coverage
 ############################
 
 .env
-license.txt
-exports
-*.cache
-build
-.strapi-updater.json
+
 config
-server
-extensions
-.tmp
-.eslintrc
-.estintignore
-.editorconfig
-.strapi-updater
-pakage
-REDME
-yarn.lock
+
+
+
+
